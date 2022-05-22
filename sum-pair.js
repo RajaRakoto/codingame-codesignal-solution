@@ -1,0 +1,19 @@
+/*
+Votre programme doit calculer la somme des chiffres paires d'un nombre 0 < N < 2^32 | ex: N = 120789466 -> 26
+*/
+
+const N = 120789466;
+
+let NtoArray = String(N).map(N => {
+	return Number(N);
+});
+
+let result = 0;
+
+NtoArray.forEach(n => {
+	if (n % 2 === 0) {
+		result += n;
+	}
+});
+
+console.log(result); 
