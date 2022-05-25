@@ -1,6 +1,6 @@
 /* Votre programme doit imprimer le NOT (inverse) d'un nombre binaire B | ex: B = 101100 -> 010011 */
 
-// Methode 1
+// method 1
 const B = '101100';
 let result = [];
 
@@ -10,5 +10,5 @@ Array.from(B).forEach(b => {
 
 console.log(Number(result.join('')));
 
-// Methode 2
+// method 2
 console.log(Number(B.replaceAll('1', 'a').replaceAll('0', '1').replaceAll('a', '0')));

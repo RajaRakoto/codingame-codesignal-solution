@@ -1,5 +1,5 @@
 /*
-Votre programme doit calculer le nombre d'annees bissextiles entre 2 annees "a" et "b" | ex:  entre 1800 ~ 2400 -> 146 annees bissextiles
+Votre programme doit calculer le nombre d'annees bissextiles entre 2 annees "a" et "b" y compris les 2 si ils sont aussi bissextiles | ex:  entre 1800 ~ 2400 -> 146 annees bissextiles
 */
 
 let a = 1800;
