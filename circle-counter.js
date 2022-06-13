@@ -1,14 +1,14 @@
 /**
  * @sujet - Imprimez le nombre total de cercles dans chaque numero.
  * @exemple - 0, 6 et 9 ont 1 cercle tandis que 8 en a 2 | si n = '8809 00' | result -> 8
- * @feat - parseInt() | split() | push() | Set() | forEach()
+ * @feat - filter() | map() | reduce() | forEach()
  */
 function circleCounter() {
 	const n = '8809 00';
 
 	// method 1
 	let result = 0;
-	Array.from(n)
+	[...n]
 		.filter(n => n != ' ')
 		.forEach(n => {
 			n == 8
@@ -20,8 +20,12 @@ function circleCounter() {
 	console.log(result);
 
 	// method 2
-  // console.log(Array.from(n).map(n => {(n == 8) ? n = 2 : (n == 0 || n == 9 | n == 6) ? n = 1 : n = 0}))
-  console.log(Array.from(n).filter(n => n != ' ').map)
+	console.log(
+		[...n]
+			.filter(n => n != ' ')
+			.map(n => (n == 8 ? 2 : n == 0 || n == 6 || n == 9 ? 1 : 0))
+			.reduce((total, n) => total + n),
+	);
 }
 
 circleCounter();
