@@ -8,7 +8,7 @@ function binaryNot() {
 	const B = '101100';
 	let result = [];
 
-	Array.from(B).forEach(b => {
+	[...B].forEach(b => {
 		b === '1' ? result.push('0') : result.push('1');
 	});
 

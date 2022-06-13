@@ -1,7 +1,7 @@
 /**
  * @sujet - Votre programme prend un nombre relatif n puis calcul la difference entre ce nombre est son inverse
  * @exemple - n = 2 | result -> 2-2 | n = 457 | result -> 457-754 | n = -98 | result -> -98-(-89)
- * @feat - Array.from() | Math.abs() | push() | slice() | join() | eval()
+ * @feat - Math.abs() | push() | slice() | join() | eval()
  */
 function reversed() {
 	let n = 2;
@@ -12,7 +12,7 @@ function reversed() {
 		negFlag = true;
 	}
 
-	const nToArray = Array.from(String(n));
+	const nToArray = [...String(n)];
 	let inverse = [];
 	let index = nToArray.length;
 

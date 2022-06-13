@@ -8,7 +8,7 @@
 ---o----------------
 -------------o------
 -------o------------
- * @feat - repeat() | forEach() | Array.from() | push() | join() 
+ * @feat - repeat() | forEach() | push() | join() 
  */
 function cursor() {
 	const L = 20; // length
@@ -26,7 +26,7 @@ function cursor() {
 
 	// set line value
 	listP.forEach(lp => {
-		let arrayOfLine = Array.from(line);
+		let arrayOfLine = [...line];
 		arrayOfLine[calcPercentage(lp, L)] = 'o';
 		result.push(arrayOfLine.join``);
 	});

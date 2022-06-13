@@ -1,14 +1,14 @@
 /**
  * @sujet - Votre programme doit sortir une expression pour effectuer un developpement d'une autre expression donnEe et donner sa valeur a la fin
  * @exemple - input = (-a+b)(c+d) | result -> -a*c + -a*d + b*c + b*d
- * @feat - Array.from() | forEach() | join() | Number() | splice() | indexOf() | eval()
+ * @feat - forEach() | join() | Number() | splice() | indexOf() | eval()
  */
 function developOfDigit() {
 	const input = '(-5+4)(-44x+7)';
 	let { a, b, c, d } = [];
 
 	// enleve le premier "(" et le dernier ")"
-	let globalExpr = Array.from(input).slice(1, input.length - 1);
+	let globalExpr = [...input].slice(1, input.length - 1);
 	let firstExpr = globalExpr.splice(0, globalExpr.indexOf(')'));
 	let secondExpr = globalExpr.splice(2, globalExpr.length);
 
