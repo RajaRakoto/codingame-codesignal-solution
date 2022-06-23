@@ -9,6 +9,7 @@
    # # # # # # # # # #  #   #  # # # #
    # # # # # # # # # #  #   #  # # # #
  * link - https://www.codingame.com/ide/puzzle/ascii-art
+ * progress - 90%	 
  */
 function artAscii() {
 	// input
