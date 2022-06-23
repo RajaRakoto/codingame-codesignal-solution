@@ -6,8 +6,9 @@
 function temperature() {
 	var inputs = '1 -2 -8 4 5'.split(' ');
 
-	const neg = inputs.sort((a, b) => a - b).filter(n => n < 0);
-	const pos = inputs.sort((a, b) => a - b).filter(n => n > 0);
+	const sort = inputs.sort((a, b) => a - b);
+	const neg = sort.filter(n => n < 0);
+	const pos = sort.filter(n => n > 0);
 	const posMin = pos[0];
 	const negMax = Math.abs(neg[neg.length - 1]);
 

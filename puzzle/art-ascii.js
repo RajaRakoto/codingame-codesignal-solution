@@ -59,3 +59,5 @@ function artAscii() {
 
 	result.forEach(r => console.log(r));
 }
+
+artAscii();
