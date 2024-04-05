@@ -1,4 +1,7 @@
-/* pgcd algo */
+/**
+ * @subject - Vous devez trouver le plus grand diviseur commun de deux nombres.
+ * @exemple - a = 12, b = 18 | result -> 6
+ */
 function pgcdRecursion() {
   const pgcd = (a, b) => {
     if (a == 0) {

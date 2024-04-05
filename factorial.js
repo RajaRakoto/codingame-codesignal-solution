@@ -1,5 +1,5 @@
 /**
- * @sujet - Calculez le factoriel d'un nombre N
+ * @subject - Calculez le factoriel d'un nombre N
  * @exemple - N = 6 | result -> 720
  */
 function factorial() {

@@ -1,6 +1,7 @@
 /**
- * @sujet - Trouvez le point le plus proche de (0,0), on vous donne une liste de points, et vous devez trouver le point le plus proche de l'origine. Si deux points ont la meme distance, renvoie celui qui a ete donnE en premier dans la liste
- * @feat - push() | Math.sqrt() | Math.min() | indexOf() | join()
+ * @subject - Trouvez le point le plus proche de (0,0), on vous donne une liste de points, et vous devez trouver le point le plus proche de l'origine. Si deux points ont la meme distance, renvoie celui qui a ete donnE en premier dans la liste
+ * @exemple - N = 3 | point = [ [ 1, 2 ], [ 2, 1 ], [ 3, 4 ] ] | result -> [ 1, 2 ]
+ * @feat - push() | Math.sqrt() | Math.min() | indexOf() | join() | split()
  */
 function zeroXY() {
 	const N = parseInt(readline());

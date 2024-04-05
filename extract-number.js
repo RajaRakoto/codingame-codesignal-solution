@@ -1,5 +1,5 @@
 /**
- * @sujet -  Votre prgramme doit extraire tout les entiers contenu dans une chaine de caractere
+ * @subject -  Votre prgramme doit extraire tout les entiers contenu dans une chaine de caractere
  * @exemple - string =  "Cat 10, Dog 5, Bird 8" | result -> 1058
  * @feat - string.match() | join() 
  */

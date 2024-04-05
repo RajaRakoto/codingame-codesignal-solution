@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit convertir l'heure exprimE en format HH:mm en minute seulement
+ * @subject - Votre programme doit convertir l'heure exprimE en format HH:mm en minute seulement
  * @exemple - hours = "18:07" | result -> "1087 mn"
  * @feat - split() | Number()
  */

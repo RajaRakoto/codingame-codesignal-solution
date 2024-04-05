@@ -1,5 +1,5 @@
 /**
- * @sujet
+ * @subject
 Imprimer les nombres de 1 à N chacun sur une nouvelle ligne sauf :
 Si le nombre est divisible par 3 imprimer Fizz
 Si le nombre est divisible par 5, imprimer Buzz

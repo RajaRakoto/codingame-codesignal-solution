@@ -1,6 +1,7 @@
 /**
- * @sujet -  La sortie de base est "Nombre de répétitions, lettre, nombre de répétitions, lettre" et ainsi de suite, jusqu'à ce que la longueur de la chaîne soit atteinte.
+ * @subject -  La sortie de base est "Nombre de répétitions, lettre, nombre de répétitions, lettre" et ainsi de suite, jusqu'à ce que la longueur de la chaîne soit atteinte.
  * @exemple -  "HELLO" serait converti en 1H1E2L1O
+ * @feat - forEach() | join() | push()
  */
 function losslessCompression() {
 	const s = "HELLO";

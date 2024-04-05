@@ -1,5 +1,5 @@
 /**
- * @sujet - Imprimez le total des voyelles dans une chaine donnEe
+ * @subject - Imprimez le total des voyelles dans une chaine donnEe
  * @exemple - s = "Hello World" | result -> 3
  * @feat - match()
  */

@@ -1,7 +1,7 @@
 /**
- * @sujet - Convertissez le nombre binaire separE par "!" en decimal sans "!"
+ * @subject - Convertissez le nombre binaire separE par "!" en decimal sans "!"
  * @exemple -  abc = "000!000!000" | result -> 000 | abc = "011!010!001" | result -> 321
- * @feat - join() | split() | parseInt() | map()
+ * @feat - split() | map() | parseInt() | join()
  */
 function bin2Dec() {
 	// methode 1

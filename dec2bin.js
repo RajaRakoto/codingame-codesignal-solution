@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit afficher la représentation binaire des nombres donnés en entrée. Chaque nombre est donné sur une nouvelle ligne. Votre programme doit afficher le résultat binaire suivi d'un retour à la ligne dans le même ordre que la lecture des nombres.
+ * @subject - Votre programme doit afficher la représentation binaire des nombres donnés en entrée. Chaque nombre est donné sur une nouvelle ligne. Votre programme doit afficher le résultat binaire suivi d'un retour à la ligne dans le même ordre que la lecture des nombres.
  * @exemple - decList = [0, 1, 3, 8, 255]
  result: 
 0

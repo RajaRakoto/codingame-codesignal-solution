@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme prend un nombre relatif n puis calcul la difference entre ce nombre est son inverse
+ * @subject - Votre programme prend un nombre relatif n puis calcul la difference entre ce nombre est son inverse
  * @exemple - n = 2 | result -> 2-2 | n = 457 | result -> 457-754 | n = -98 | result -> -98-(-89)
  * @feat - Math.abs() | push() | slice() | join() | eval()
  */

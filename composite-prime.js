@@ -1,5 +1,5 @@
 /**
- * @sujet - Appelons un groupe de nombres collectivement premiers si la somme des nombres uniques du groupe est premiere.
+ * @subject - Appelons un groupe de nombres collectivement premiers si la somme des nombres uniques du groupe est premiere.
  Un entier positif est premier s'il a exactement 2 facteurs: 1 et lui meme. Les entiers inferieurs a 2, y compris les entiers negatifs, ne sont pas premiers 
  * @exemple - le groupe (1,5,7,5) est premier en commun puisqu'ils totalisent 13 qui est premier 
  * @feat - parseInt() | split() | push() | Set() | forEach() 

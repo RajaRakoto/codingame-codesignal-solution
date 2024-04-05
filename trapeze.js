@@ -1,5 +1,6 @@
 /**
- * @sujet - Votre programme doit calculer l'aire d'un trapeze
+ * @subject - Votre programme doit calculer l'aire d'un trapeze
+ * @exemple - a = 5 | b = 7 | h = 10 | result -> 60.0
  * @feat - toFixed()
  */
 function trapeze() {

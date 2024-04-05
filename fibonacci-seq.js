@@ -1,5 +1,5 @@
 /**
- * @sujet - Construisez la sequence de Fibonacci mais avec des entrEes donnEes au lieu d'entrEes definies, 0 et 1. Faite une sequence additive avec "t" un certain nombre de fois pour boucler, "a" un premier chiffre de depart et "b" un deuxieme chiffre de depart
+ * @subject - Construisez la sequence de Fibonacci mais avec des entrEes donnEes au lieu d'entrEes definies, 0 et 1. Faite une sequence additive avec "t" un certain nombre de fois pour boucler, "a" un premier chiffre de depart et "b" un deuxieme chiffre de depart
  * @exemple - t = 10 | a = 0 | b = 1 | result -> 0 1 1 2 3 5 8 13 21 34 55 89
  * @feat - forEach() | push()
  */

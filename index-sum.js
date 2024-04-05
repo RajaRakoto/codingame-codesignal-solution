@@ -1,5 +1,5 @@
 /**
- * @sujet - Calculez la somme des nombres aux indices donnEs
+ * @subject - Calculez la somme des nombres aux indices donnEs
  * @exemple - count = [2, 2, 3] | index = [1, 2] | result -> 5
  * @feat - forEach()
  */

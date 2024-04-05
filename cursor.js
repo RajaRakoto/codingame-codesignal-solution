@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit afficher une ou plusieurs ligne(s) qui contient un curseur "o" indiquant le pourcentage par rapport a ce dernier (voir exemple). La longueur d'une ligne correspond a l'entrE "L", "listP" represente la liste des valeurs en pourcentage, la longeur de ce dernier correpsond donc au nombre de ligne a imprimer
+ * @subject - Votre programme doit afficher une ou plusieurs ligne(s) qui contient un curseur "o" indiquant le pourcentage par rapport a ce dernier (voir exemple). La longueur d'une ligne correspond a l'entrE "L", "listP" represente la liste des valeurs en pourcentage, la longeur de ce dernier correpsond donc au nombre de ligne a imprimer
  * @exemple 
  Si L = 10, listP = [50] | result -> "----o-----"
  Si L = 20, listP = [10, 20, 70, 40]
@@ -8,7 +8,7 @@
 ---o----------------
 -------------o------
 -------o------------
- * @feat - repeat() | forEach() | push() | join() 
+ * @feat - repeat() | forEach() | push() | join()
  */
 function cursor() {
 	const L = 20; // length

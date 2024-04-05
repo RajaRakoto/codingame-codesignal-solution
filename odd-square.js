@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit trouver tous les nombres impairs du tableau et calculer les carrEs de ce nombre puis imprimer sans repetition et dans l'ordre inverse
+ * @subject - Votre programme doit trouver tous les nombres impairs du tableau et calculer les carrEs de ce nombre puis imprimer sans repetition et dans l'ordre inverse
  * @exemple - array = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5] | result -> 25 9 1
  * @feat - join() | map() | Math.pow() | sort() | filter() | Set()
  */

@@ -1,5 +1,5 @@
 /**
- * @sujet - Pour un texte donnE "t", remplacer toutes les sequences du caractere donnE "n" par le nombre de caracteres dans cette sequence. Le texte ne peut contenir que des caracteres ASCII
+ * @subject - Pour un texte donnE "t", remplacer toutes les sequences du caractere donnE "n" par le nombre de caracteres dans cette sequence. Le texte ne peut contenir que des caracteres ASCII
  * @exemple - t = "hello world !" | n = "l" | result -> "he2o wor1d !"
  * @feat - split() | forEach() | push() | replaceAll()
  */

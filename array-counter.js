@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit imprimer un array en fonction de deux valeurs en entree dont L represente la longueur de chaque tableau et N represente le nombre de tableau a afficher, l'element du tableau est un valeur incrementE allant de 1
+ * @subject - Votre programme doit imprimer un array en fonction de deux valeurs en entree dont L represente la longueur de chaque tableau et N represente le nombre de tableau a afficher, l'element du tableau est un valeur incrementE allant de 1
  * @exemple - L = 2 | N = 4 | result -> [ 1, 2 ] [ 3, 4 ] [ 5, 6 ] [ 7, 8 ]
  * @feat - push()
  */

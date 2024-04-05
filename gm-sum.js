@@ -1,6 +1,6 @@
 /**
- * @sujet - Un tableau de N entiers et une liste de M gammes inclusives A et B, pour chaque plage, imprimez la somme des valeurs du tableau avec un indice entre A et B compris
- * @feat - push() | parseInt() | Number() | split() | forEach() | map() 
+ * @subject - Un tableau de N entiers et une liste de M gammes inclusives A et B, pour chaque plage, imprimez la somme des valeurs du tableau avec un indice entre A et B compris
+ * @feat - push() | parseInt() | Number() | split() | forEach() | map()
  */
 function gmSum() {
 	const N = parseInt(readline());

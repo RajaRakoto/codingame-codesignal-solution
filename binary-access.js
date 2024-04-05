@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit imprimer la valeur en binaire du droit allouE sur un fichier dans un systeme GNU/Linux
+ * @subject - Votre programme doit imprimer la valeur en binaire du droit allouE sur un fichier dans un systeme GNU/Linux
  * @exemple - input = -r---w---x | result -> 421 | input = -rwxr-xr-x | result -> 755
  * @feat - slice() | forEach() | push() | join() | Number()
  */

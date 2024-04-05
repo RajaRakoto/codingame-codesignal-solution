@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit calculer le nombre d'annees bissextiles entre 2 annees "a" et "b" y compris les 2 si ils sont aussi bissextiles
+ * @subject - Votre programme doit calculer le nombre d'annees bissextiles entre 2 annees "a" et "b" y compris les 2 si ils sont aussi bissextiles
  * @exemple - entre 1800 ~ 2400 | result -> 146 annees bissextiles
  */
 function leapYear() {

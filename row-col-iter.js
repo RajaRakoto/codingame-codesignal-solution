@@ -1,5 +1,5 @@
 /**
- * @sujet - On vous donne 3 entiers, dont "n" represente le nombre de depart, "s" represente le nombre de ligne et colonne, "o" represente le compteur a chaque iteration de boucle. Votre programme doit imprimer un tableau a deux dimensions correspondant aux valeurs donnEes (voir l'exemple ci dessous). Si le nombre de colonne et ligne est 0, le programme doit imprimer "Nothing"
+ * @subject - On vous donne 3 entiers, dont "n" represente le nombre de depart, "s" represente le nombre de ligne et colonne, "o" represente le compteur a chaque iteration de boucle. Votre programme doit imprimer un tableau a deux dimensions correspondant aux valeurs donnEes (voir l'exemple ci dessous). Si le nombre de colonne et ligne est 0, le programme doit imprimer "Nothing"
  * @exemple
 -> input:
   n = 5 | s = 2 | o = 1

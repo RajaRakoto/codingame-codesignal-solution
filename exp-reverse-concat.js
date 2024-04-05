@@ -1,5 +1,5 @@
 /**
- * @sujet -  Considerons une chaine representant un entier positif N et un autre entier positif K
+ * @subject -  Considerons une chaine representant un entier positif N et un autre entier positif K
  * Vous devez:
  * a - inverse N chiffre
  * b - elevez chaque chiffre jusqu'au K-eme puissance

@@ -1,5 +1,5 @@
 /**
- * @sujet - Observez l'exemple si dessous et implementez l'algorithme correspondant
+ * @subject - Observez l'exemple si dessous et implementez l'algorithme correspondant
  * @exemple
  * size = 5
  * *

@@ -1,5 +1,6 @@
 /**
- * @sujet - Vous devez trouver le plus grand nombre premier parmi une liste de nombres donnée en entrée.
+ * @subject - Vous devez trouver le plus grand nombre premier parmi une liste de nombres donnée en entrée.
+ * @exemple - n = [0, 1, 2, 3, 5, 6, 8, 9] | result -> 5
  * @feat - Math.max() | split() 
  */
 function primeNumber() {

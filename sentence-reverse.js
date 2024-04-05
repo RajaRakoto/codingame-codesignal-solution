@@ -1,5 +1,5 @@
 /**
- * @sujet - Ecrire l'algorithme correspondant au exemple ci-dessous
+ * @subject - Ecrire l'algorithme correspondant au exemple ci-dessous
  * @exemple 
  * m = "Chuck Norris"
  * output:
@@ -15,7 +15,7 @@
   r u
   i h
   s C
- * @feat - split() | forEach() | reverse()
+ * @feat - split() | forEach() | reverse() | push()
  */
 function sentenceReverse() {
   const m = "Chuck Norris".split('');

@@ -1,6 +1,6 @@
 /**
- * @sujet - Sur une site web de commerce, nous devons generer un systeme de notation par etoiles basE sur toutes les notes qu'un produit a recues arrondies a l'inferieur
- * @exemple -  N = "2,5,2,5,2,5" | result -> ***
+ * @subject - Sur une site web de commerce, nous devons generer un systeme de notation par etoiles basE sur toutes les notes qu'un produit a recues arrondies a l'inferieur
+ * @exemple - N = "2,5,2,5,2,5" | result -> ***
  * @feat - repeat() | trunc() | split() | map() | Number() | reduce()
  */
 function stars() {

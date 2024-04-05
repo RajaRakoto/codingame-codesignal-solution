@@ -1,7 +1,7 @@
 /**
- * @sujet - Convertissez les langages humain en entrer en bird language, pour ce faire Vous devez inserer la lettre p suivi de la voyelle une fois de plus
+ * @subject - Convertissez les langages humain en entrer en bird language, pour ce faire Vous devez inserer la lettre p suivi de la voyelle une fois de plus
  * @exemple -  string = alex | result -> apalepex
- * @feat - forEach() | join() | indexOf()
+ * @feat - forEach() | join() | indexOf() 
  */
 function birdLanguage() {
 	const vowel = [...'a e i o u y'];

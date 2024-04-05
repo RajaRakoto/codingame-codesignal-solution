@@ -1,7 +1,7 @@
 /**
- * @sujet - Touve la racine carree du plus petit nombre carre parfait dans une liste de nombre donnE "ListN", retourne 0 si la liste contient une valeur indefini
+ * @subject - Touve la racine carree du plus petit nombre carre parfait dans une liste de nombre donnE "ListN", retourne 0 si la liste contient une valeur indefini
  * @example - listN = [5, 12, 8, 21, 25, undefined, 16] | result -> 0
- * @feat - Math.sqrt() | Number.isInteger() | push() | sort()
+ * @feat - Math.sqrt() | Number.isInteger() | push() | sort() | forEach()
  */
 function squareTest() {
 	let listN = [5, 12, 8, 21, 25, undefined, 16];

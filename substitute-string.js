@@ -1,6 +1,6 @@
 /**
- * @sujet -  Une chaine contient 2 caracteres disctincts, votre programme doit imprimer l'inverse de ces caracteres
- * @exemple -  s = "tyyytt" | result -> "ytttyy" | s = "/--/-/" | result ->  "-//-/-"
+ * @subject - Une chaine contient 2 caracteres disctincts, votre programme doit imprimer l'inverse de ces caracteres
+ * @exemple - s = "tyyytt" | result -> "ytttyy" | s = "/--/-/" | result ->  "-//-/-"
  * @feat - forEach() | push() | slice() | join() | map()
  */
 function substitureString() {

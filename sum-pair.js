@@ -1,7 +1,7 @@
 /**
- * @sujet -  Votre programme doit calculer la somme des chiffres paires d'un nombre 0 < N < 2^32
- * @exemple -  N = 120789466 | result -> 26 (2+0+8+4+6+6)
- * @feat - String() | Number() | forEach() | map()
+ * @subject - Votre programme doit calculer la somme des chiffres paires d'un nombre 0 < N < 2^32
+ * @exemple - N = 120789466 | result -> 26 (2+0+8+4+6+6)
+ * @feat - String() | Number() | map() | forEach()
  */
 function sumPair() {
 	const N = 120789466;

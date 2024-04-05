@@ -1,7 +1,7 @@
 /**
- * @sujet - Imprimez le nombre total de cercles dans chaque numero.
+ * @subject - Imprimez le nombre total de cercles dans chaque numero.
  * @exemple - 0, 6 et 9 ont 1 cercle tandis que 8 en a 2 | si n = '8809 00' | result -> 8
- * @feat - filter() | map() | reduce() | forEach()
+ * @feat - filter() | map() | reduce() | forEach() 
  */
 function circleCounter() {
 	const n = '8809 00';

@@ -1,6 +1,6 @@
 /**
- * sujet - Ecrire un programme capable d'afficher une ligne de texte en art ASCII dans un style qui vous est fourni en entrée.
- * exemple 
+ * @subject - Ecrire un programme capable d'afficher une ligne de texte en art ASCII dans un style qui vous est fourni en entrée.
+ * @exemple 
    text = "MANHATTAN"
    output:
    # #  #  ### # #  #  ### ###  #  ###
@@ -8,8 +8,8 @@
    ### ### # # ### ###  #   #  ### # #
    # # # # # # # # # #  #   #  # # # #
    # # # # # # # # # #  #   #  # # # #
- * link - https://www.codingame.com/ide/puzzle/ascii-art
- * progress - 90%	 
+ * @link - https://www.codingame.com/ide/puzzle/ascii-art
+ * @progress - 90%	 
  */
 function artAscii() {
 	// input

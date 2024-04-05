@@ -1,6 +1,5 @@
 /**
- * @sujet -  Le vaisseau Destiny est en danger : attiré vers le bas, il risque de s'écraser contre les montagnes d'une planète inconnue. Aidez Rick à détruire les montagnes... sauvez le Destiny ! Votre programme doit lire depuis l'entrée standard la hauteur des montagnes puis fournir sur la sortie standard l'indice de la montagne à détruire. Vous gagnez si vous détruisez la montagne la plus haute à chaque tour de descente du vaisseau
- * @feat - parseInt() | indexOf() | Math.max.apply()
+ * @subject -  Le vaisseau Destiny est en danger : attiré vers le bas, il risque de s'écraser contre les montagnes d'une planète inconnue. Aidez Rick à détruire les montagnes... sauvez le Destiny ! Votre programme doit lire depuis l'entrée standard la hauteur des montagnes puis fournir sur la sortie standard l'indice de la montagne à détruire. Vous gagnez si vous détruisez la montagne la plus haute à chaque tour de descente du vaisseau
  */
 function theDescent() {
 	// method 1

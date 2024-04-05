@@ -1,5 +1,5 @@
 /**
- * @sujet - L'eau coule sur les marches, vous pouvez la regarder couler. Pour chaque marche, l'eau descend d'une marche de plus
+ * @subject - L'eau coule sur les marches, vous pouvez la regarder couler. Pour chaque marche, l'eau descend d'une marche de plus
  * @exemple - n = 9, water = "~"
  * output:
  ~

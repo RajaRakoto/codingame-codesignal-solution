@@ -1,5 +1,5 @@
 /**
- * @sujet - On vous fourni un grille de texte de N lignes de N caracteres chacune. Votre programme doit calculer les mots situEs sur les deux diagonales de la grille. La premiere diagonale se lit du coin gauche vers le coin bas droit tandis que la deuxieme se lit du coin haut doit vers le coin bas gauche 
+ * @subject - On vous fourni un grille de texte de N lignes de N caracteres chacune. Votre programme doit calculer les mots situEs sur les deux diagonales de la grille. La premiere diagonale se lit du coin gauche vers le coin bas droit tandis que la deuxieme se lit du coin haut doit vers le coin bas gauche 
  * @exemple
  * input:
  mooa
@@ -8,7 +8,7 @@
  ioon
  * output:
  main anti
- * @feat -
+ * @feat - join() | reverse() | push() | forEach()
  */
 function diagonal() {
 	const array = ['mooa', 'pano', 'ptio', 'ioon'];

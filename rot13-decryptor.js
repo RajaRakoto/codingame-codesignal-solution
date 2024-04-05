@@ -1,5 +1,5 @@
 /**
- * @sujet - Le ROT13 est un cas particulier du chiffre de César, un algorithme simpliste de chiffrement de texte. Comme son nom l’indique, il s’agit d’un décalage de 13 caractères de chaque lettre du texte à chiffrer. Ecrire un programme permettant de dechiffrer un message "M" codE en ROT13
+ * @subject - Le ROT13 est un cas particulier du chiffre de César, un algorithme simpliste de chiffrement de texte. Comme son nom l’indique, il s’agit d’un décalage de 13 caractères de chaque lettre du texte à chiffrer. Ecrire un programme permettant de dechiffrer un message "M" codE en ROT13
  * @exemple - T = "uryyb jbeyq" | result -> "hello world"
  * @feat - fromCharCode() | replace() | charCodeAt() | toLowerCase()
  */

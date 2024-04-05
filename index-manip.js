@@ -1,7 +1,7 @@
 /**
- * @sujet -  Observez l'exemple ci dessous et ecrivez le code permettant de resoudre le probleme
+ * @subject -  Observez l'exemple ci dessous et ecrivez le code permettant de resoudre le probleme
  * @exemple - input -> ['adgjmpswz', 'behknqtx', 'cfiloruy'] | output -> 'abcdefghijklmnopqrstuwxyz'
- * @feat - push() | shift() | flat()
+ * @feat - push() | shift() | flat() | forEach()
  */
 function indexManip() {
 	let word = ['adgjmpswz', 'behknqtx', 'cfiloruy'];

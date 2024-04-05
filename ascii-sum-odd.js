@@ -1,7 +1,7 @@
 /**
- * @sujet - Vous recevez une seule chaine "word", votre programme doit convertir chaque caractere en sa valeur ASCII et additionner les nombres impairs
+ * @subject - Vous recevez une seule chaine "word", votre programme doit convertir chaque caractere en sa valeur ASCII et additionner les nombres impairs
  * @exemple -  word = "ABC" | result -> 132 (65+67)
- * @feat - map() | filter() | reduce()
+ * @feat - charCodeAt() | map() | filter() | reduce()
  */
 function asciiSumOdd() {
 	const word = 'ABC';

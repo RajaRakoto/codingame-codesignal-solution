@@ -1,7 +1,7 @@
 /**
- * @sujet - Vous devez convertir le binaire donné en hexadécimal.
+ * @subject - Vous devez convertir le binaire donné en hexadécimal.
  * @exemple - b = 0b1010 | result -> 0xa
- * @feat - Array.from() | forEach() | push() | join() | Number() | replaceAll()
+ * @feat - slice() | parseInt() | toString()
  */
 function binToHex() {
   const b = "0b1010";

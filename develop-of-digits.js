@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit sortir une expression pour effectuer un developpement d'une autre expression donnEe et donner sa valeur a la fin
+ * @subject - Votre programme doit sortir une expression pour effectuer un developpement d'une autre expression donnEe et donner sa valeur a la fin
  * @exemple - input = (-a+b)(c+d) | result -> -a*c + -a*d + b*c + b*d
  * @feat - forEach() | join() | Number() | splice() | indexOf() | eval()
  */

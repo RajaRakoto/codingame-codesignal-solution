@@ -1,7 +1,7 @@
 /**
- * @sujet - Votre programme doit nettoyer une chaine de caractere donnEe en supprimant tout les caracteres speciaux, numeriques et les espaces blanc dupliquEs
- * @exemple -  s = "Hello, World !" | result -> "Hello World" | s = "th3 qu1ck br0wn" | result -> "Th quck brwn" 
- * @feat - replace()
+ * @subject - Votre programme doit nettoyer une chaine de caractere donnEe en supprimant tout les caracteres speciaux, numeriques et les espaces blanc dupliquEs
+ * @exemple - s = "Hello, World !" | result -> "Hello World" | s = "th3 qu1ck br0wn" | result -> "Th quck brwn" 
+ * @feat - replaceAll() | replace()
  */
 function stringCleaner() {
 	const s = "th3 qu1ck br0wn";

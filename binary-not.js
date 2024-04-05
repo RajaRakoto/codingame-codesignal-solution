@@ -1,5 +1,5 @@
 /**
- * @sujet - Votre programme doit imprimer le NOT (inverse) d'un nombre binaire B
+ * @subject - Votre programme doit imprimer le NOT (inverse) d'un nombre binaire B
  * @exemple - B = 101100 | result -> 010011
  * @feat - Array.from() | forEach() | push() | join() | Number() | replaceAll()
  */

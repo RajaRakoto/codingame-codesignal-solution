@@ -1,7 +1,7 @@
 /**
- * @sujet - Votre programme doit convertir tout les caracteres de l'alphabet a l'index correspondant
+ * @subject - Votre programme doit convertir tout les caracteres de l'alphabet a l'index correspondant
  * @exemple str = "gdi" | result -> 749 | str = "ajul" | result -> 1102112 | str = "21g3abt" | result -> 21791220
- * @feat - map() | toLowerCase() | fromCharCode() | keys() | slice() | indexOf() | join()
+ * @feat - toLowerCase() | fromCharCode() | keys() | slice() | indexOf() | map() | join()
  * @note - Les caracteres speciaux et numeriques restent le meme
  */
 function alphabetConvert() {
@@ -13,4 +13,5 @@ function alphabetConvert() {
 	);
 	console.log(result.join``);
 }
+
 alphabetConvert();

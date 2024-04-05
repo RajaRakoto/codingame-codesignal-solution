@@ -1,5 +1,5 @@
 /**
- * @sujet - Etant donnE une chaine d'entrEe n, convertissez chaque caractere de la chaine en hexadecimal et trouvez la somme de chaque caractere hexadecimal. c
+ * @subject - Etant donnE une chaine d'entrEe n, convertissez chaque caractere de la chaine en hexadecimal et trouvez la somme de chaque caractere hexadecimal. c
  * @exemple - n = "ABCDEF" | result -> 10 + 11 + 12 + 13 + 14 + 15 = 75
  * @feat - map() | reduce() | Number() 
  */

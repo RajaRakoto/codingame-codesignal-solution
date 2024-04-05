@@ -1,5 +1,5 @@
 /**
- * @sujet - Un tableau (tab1) de chaine contenant N caracteres representant la premiere grille, chaque caractere sera soit ".", "/" ou "\\". Un autre tableau (tab2) contenant N caracteres  representant la deuxieme grille, chaque caractere sera soit ".", "/" ou "\\". La sortie doit etre N lignes avec exactement N caracteres dans chaque ligne, qui sont la description de la grille de sortie comme decrit, chaque caractere doit etre soit '.', '/' , '\\' ou "X"
+ * @subject - Un tableau (tab1) de chaine contenant N caracteres representant la premiere grille, chaque caractere sera soit ".", "/" ou "\\". Un autre tableau (tab2) contenant N caracteres  representant la deuxieme grille, chaque caractere sera soit ".", "/" ou "\\". La sortie doit etre N lignes avec exactement N caracteres dans chaque ligne, qui sont la description de la grille de sortie comme decrit, chaque caractere doit etre soit '.', '/' , '\\' ou "X"
  * @exemple - Si tab1 = "/", tab2 = "/" | result -> "/" | Si tab1 = "/", tab2 = "." | result -> "/" | Si tab1 = ".", tab2 = "." | result -> "." | Si tab1 = "/", tab2="\\" | result -> "X" | Si tab1="\\", tab2="\\" | result -> "\\"
  * @feat - push() | map()
  * @note - La combinaison des grilles de tab1 et tab2 (comme montre l'exemple ci-dessus) est toujours commutative

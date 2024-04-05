@@ -1,5 +1,5 @@
 /**
- * @sujet - Determinez quel style de nommage est la variable donnEe
+ * @subject - Determinez quel style de nommage est la variable donnEe
  * @exemple - message = "variable_one" | result -> "snake_case" | message = "VariableTwo" | result -> "PascalCase" | message = "variableThree" | result -> "camelCase"
  * @feat - includes() | test()
  */
