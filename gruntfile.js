@@ -1,5 +1,5 @@
 /**
- * @description: gruntfile for calc-js
+ * @description: gruntfile for codingame-codesignal-solution
  * @requires: grunt | load-grunt-tasks | grunt-contrib-compress
  */
 module.exports = function (grunt) {
@@ -24,32 +24,23 @@ module.exports = function (grunt) {
 				files: [{ src: ["./*", "./.*"] }],
 				filter: "isFile",
 			},
-			assets: {
+			puzzle: {
 				options: {
-					archive: backupsDestination + "assets.tar.gz",
+					archive: backupsDestination + "puzzle.tar.gz",
 				},
 				expand: true,
-				cwd: "./assets/",
+				cwd: "./puzzle/",
 				src: includeAllFiles,
-				dest: "assets",
+				dest: "puzzle",
 			},
-			lib: {
+			solved: {
 				options: {
-					archive: backupsDestination + "lib.tar.gz",
+					archive: backupsDestination + "solved.tar.gz",
 				},
 				expand: true,
-				cwd: "./lib/",
+				cwd: "./solved/",
 				src: includeAllFiles,
-				dest: "lib",
-			},
-			sass: {
-				options: {
-					archive: backupsDestination + "sass.tar.gz",
-				},
-				expand: true,
-				cwd: "./sass/",
-				src: includeAllFiles,
-				dest: "sass",
+				dest: "solved",
 			},
 			tmp: {
 				options: {
@@ -66,15 +57,14 @@ module.exports = function (grunt) {
 	// all grunt register tasks
 	grunt.registerTask("backup", [
 		"compress:main",
-		"compress:assets",
-		"compress:lib",
-		"compress:sass",
-		"compress:tmp",
+    "compress:puzzle",
+    "compress:solved",
+    "compress:tmp",
 	]);
 
 	// all tasks lists
 	const plumTaskNames = ["backup"];
-	const plumTaskStatus = ["compress: main | assets | lib | sass | tmp"];
+	const plumTaskStatus = ["compress: main | puzzle | solved | tmp"];
 
 	// default tasks
 	grunt.registerTask("default", () => {
@@ -124,7 +114,7 @@ module.exports = function (grunt) {
 
 		// task resume
 		getTaskResume(
-			"== CALC-JS TASKS ==",
+			"== CODINGAME CODESIGNAL SOLUTION TASKS ==".cyan,
 			plumTaskNames,
 			plumTaskStatus,
 			"yellow",
