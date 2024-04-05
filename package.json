@@ -12,13 +12,15 @@
 	"bugs": "https://github.com/RajaRakoto/calc-js/issues",
 	"keywords": [
 		"javascript",
-		"dom",
-		"vanilla-js",
-		"calculator",
-		"calc"
+    "training",
+    "practice",
+		"algorithms",
+    "solutions",
+    "data-structures",
+    "codingame",
+    "codesignal"
 	],
 	"scripts": {
-		"sass:watch": "sass --watch sass/main.scss:sass/style.css",
 		"prettier": "prettier --config .prettierrc --write .",
 		"backup": "grunt backup",
 		"pkg-check": "depcheck",
