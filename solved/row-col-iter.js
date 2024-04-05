@@ -55,20 +55,20 @@ function rowColIter() {
 	}
 
 	function showArray2D(array) {
-		let whiteSpace = '';
+		let whiteSpace = "";
 		if (array.length === 0) {
-			console.log('Nothing');
+			console.log("Nothing");
 		} else {
 			for (let i = 0; i < array.length; i++) {
 				for (let j = 0; j < array.length; j++) {
 					if (array[i][j] < 9) {
-						whiteSpace += String(array[i][j]) + '  ';
+						whiteSpace += String(array[i][j]) + "  ";
 					} else {
-						whiteSpace += String(array[i][j]) + ' ';
+						whiteSpace += String(array[i][j]) + " ";
 					}
 				}
 				console.log(whiteSpace);
-				whiteSpace = '';
+				whiteSpace = "";
 			}
 		}
 	}

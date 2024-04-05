@@ -4,12 +4,12 @@
  * @feat - fromCharCode() | Math.floor() | Array.from() | map() | reduce() | charCodeAt()
  */
 function charcodeManip() {
-	const s = 'HelLO wOrlD';
+	const s = "HelLO wOrlD";
 
 	console.log(
 		String.fromCharCode(
 			Math.floor(
-				[...s].map(s => s.charCodeAt()).reduce((total, c) => total + c) /
+				[...s].map((s) => s.charCodeAt()).reduce((total, c) => total + c) /
 					s.length,
 			),
 		),

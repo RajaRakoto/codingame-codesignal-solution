@@ -4,11 +4,11 @@
  * @feat - toLowerCase() | fromCharCode() | keys() | slice() | indexOf() | map() | reduce()
  */
 function alphabetIndexSum() {
-	const str = 'Hello';
+	const str = "Hello";
 	console.log(
 		[...str.toLowerCase()]
 			.map(
-				w =>
+				(w) =>
 					[...String.fromCharCode(...Array(123).keys()).slice(97)].indexOf(w) +
 					1,
 			)

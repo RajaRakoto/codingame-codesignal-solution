@@ -4,7 +4,7 @@
  * @feat - match()
  */
 function vowelsCounter() {
-	s = 'Hello World';
+	s = "Hello World";
 	console.log(s.match(/[aeiou]/gi).length);
 }
 

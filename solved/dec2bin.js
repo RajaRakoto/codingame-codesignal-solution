@@ -12,7 +12,7 @@
 function dec2Bin() {
 	const decList = [0, 1, 3, 8, 255];
 
-	decList.forEach(dec => {
+	decList.forEach((dec) => {
 		console.log(dec.toString(2)); // conversion du nombre decimal en binaire en utilisant la methode toString(2)
 	});
 }

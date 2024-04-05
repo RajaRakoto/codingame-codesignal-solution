@@ -10,9 +10,9 @@
  * @feat - replaceAll() | map() | forEach()
  */
 function dentist() {
-	let arr = ['----01---1----0', '----0111-00---0'];
-	const result = arr.map(a => a.replaceAll('0', '-'));
-	result.forEach(r => console.log(r));
+	let arr = ["----01---1----0", "----0111-00---0"];
+	const result = arr.map((a) => a.replaceAll("0", "-"));
+	result.forEach((r) => console.log(r));
 }
 
 dentist();

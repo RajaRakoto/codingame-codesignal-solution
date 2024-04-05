@@ -5,7 +5,7 @@
  */
 function palindrome() {
 	const a = 131;
-	console.log(a == String(a).split('').reverse().join('') ? 'wins' : 'loses');
+	console.log(a == String(a).split("").reverse().join("") ? "wins" : "loses");
 }
 
 palindrome();

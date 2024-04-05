@@ -4,14 +4,14 @@
  * @feat - test()
  */
 function userNameValidator() {
-	const u = 'rakotoNirina07';
+	const u = "rakotoNirina07";
 	const format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
 
 	if (u.length >= 3 && u.length <= 20 && !format.test(u)) {
 		// La méthode test() vérifie s'il y a une correspondance entre un texte (en argument) et une expression rationnelle (regExpr). Elle retourne true en cas de succès sinon false
-		console.log('VALID');
+		console.log("VALID");
 	} else {
-		console.log('INVALID');
+		console.log("INVALID");
 	}
 }
 

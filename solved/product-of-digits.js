@@ -8,7 +8,7 @@ function productOfDigits() {
 	const m = [...String(n)];
 	let result = 1;
 
-	m.forEach(number => {
+	m.forEach((number) => {
 		result *= Number(number);
 	});
 

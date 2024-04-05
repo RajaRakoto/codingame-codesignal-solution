@@ -5,22 +5,22 @@
  * @progress - 72%
  */
 function temperature() {
-	var inputs = '1 -2 -8 4 5'.split(' ');
+	var inputs = "1 -2 -8 4 5".split(" ");
 
 	const sort = inputs.sort((a, b) => a - b);
-	const neg = sort.filter(n => n < 0);
-	const pos = sort.filter(n => n > 0);
+	const neg = sort.filter((n) => n < 0);
+	const pos = sort.filter((n) => n > 0);
 	const posMin = pos[0];
 	const negMax = Math.abs(neg[neg.length - 1]);
 
 	console.log(
-		inputs == ''
+		inputs == ""
 			? 0
-			: pos == ''
-			? -1 * negMax
-			: posMin < negMax
-			? posMin
-			: negMax,
+			: pos == ""
+				? -1 * negMax
+				: posMin < negMax
+					? posMin
+					: negMax,
 	);
 }
 

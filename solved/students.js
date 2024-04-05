@@ -16,12 +16,12 @@
  */
 function students() {}
 let n = 8;
-let t = '7 8 5 2 1';
+let t = "7 8 5 2 1";
 [...Array(n)]
 	.map((_, i) => i + 1)
-	.forEach(l => {
+	.forEach((l) => {
 		console.log(
-			t.split(' ').includes(l.toString()) ? l + ' is here' : l + ' is absent',
+			t.split(" ").includes(l.toString()) ? l + " is here" : l + " is absent",
 		);
 	});
 

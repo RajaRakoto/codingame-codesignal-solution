@@ -5,7 +5,7 @@
  */
 function bin2Dec() {
 	// methode 1
-	const abc = '011!010!001';
+	const abc = "011!010!001";
 
 	(function () {
 		var ConvertBase = function (num) {
@@ -26,12 +26,12 @@ function bin2Dec() {
 		this.ConvertBase = ConvertBase;
 	})(this);
 
-	const result = abc.split('!').map(e => ConvertBase.bin2dec(e));
+	const result = abc.split("!").map((e) => ConvertBase.bin2dec(e));
 
 	console.log(result.join``); // une autre maniere d'ecrire join("")
 
 	// methode 2
-	console.log(abc.split('!').map(e => parseInt(e, 2)).join``);
+	console.log(abc.split("!").map((e) => parseInt(e, 2)).join``);
 }
 
 bin2Dec();

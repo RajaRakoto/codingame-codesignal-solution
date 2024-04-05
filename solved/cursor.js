@@ -15,7 +15,7 @@ function cursor() {
 	const listP = [10, 20, 70, 40]; // percentage list
 
 	// create line
-	const line = '-'.repeat(L);
+	const line = "-".repeat(L);
 
 	// get percentage index in line
 	function calcPercentage(percentage, length) {
@@ -25,14 +25,14 @@ function cursor() {
 	let result = [];
 
 	// set line value
-	listP.forEach(lp => {
+	listP.forEach((lp) => {
 		let arrayOfLine = [...line];
-		arrayOfLine[calcPercentage(lp, L)] = 'o';
+		arrayOfLine[calcPercentage(lp, L)] = "o";
 		result.push(arrayOfLine.join``);
 	});
 
 	// output
-	result.forEach(r => {
+	result.forEach((r) => {
 		console.log(r);
 	});
 }

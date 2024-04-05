@@ -4,13 +4,14 @@
  * @feat - repeat() | trunc() | split() | map() | Number() | reduce()
  */
 function stars() {
-	const N = '2,5,2,5,2,5'; // 2+5+2+5+2+5 = 21/6 = 3.5 -> 3
+	const N = "2,5,2,5,2,5"; // 2+5+2+5+2+5 = 21/6 = 3.5 -> 3
 
 	console.log(
-		'*'.repeat(
+		"*".repeat(
 			Math.trunc(
-				[...N.split(',')].map(n => Number(n)).reduce((total, n) => total + n) /
-					N.split(',').length,
+				[...N.split(",")]
+					.map((n) => Number(n))
+					.reduce((total, n) => total + n) / N.split(",").length,
 			),
 		),
 	);

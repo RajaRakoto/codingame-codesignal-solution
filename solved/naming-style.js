@@ -4,7 +4,7 @@
  * @feat - includes() | test()
  */
 function namingStyle() {
-	const message = 'variableThree';
+	const message = "variableThree";
 	// verifier si le caractere en argument est en uppercase
 	function isUpper(str) {
 		return !/[a-z]/.test(str) && /[A-Z]/.test(str);
@@ -12,10 +12,10 @@ function namingStyle() {
 
 	console.log(
 		isUpper(message[0])
-			? 'PascalCase'
-			: message.includes('_')
-			? 'snake_case'
-			: 'camelCase',
+			? "PascalCase"
+			: message.includes("_")
+				? "snake_case"
+				: "camelCase",
 	);
 }
 

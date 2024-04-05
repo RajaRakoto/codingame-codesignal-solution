@@ -20,7 +20,7 @@ Buzz
 function FizzBuzz() {
 	const n = 5;
 	for (i = 0; i < n; )
-		console.log((++i % 3 ? '' : 'Fizz') + (i % 5 ? '' : 'Buzz') || i);
+		console.log((++i % 3 ? "" : "Fizz") + (i % 5 ? "" : "Buzz") || i);
 }
 
 FizzBuzz();

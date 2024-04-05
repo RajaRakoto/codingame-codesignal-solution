@@ -18,18 +18,18 @@
  * @feat - split() | forEach() | reverse() | push()
  */
 function sentenceReverse() {
-  const m = "Chuck Norris".split('');
-  let n = [];
-  
-  m.forEach(m => {
-    n.push(m);
-  })
-  
-  n = n.reverse();
-  
-  m.forEach((m, i) => {
-    console.log (m + " " + n[i]);
-  })
+	const m = "Chuck Norris".split("");
+	let n = [];
+
+	m.forEach((m) => {
+		n.push(m);
+	});
+
+	n = n.reverse();
+
+	m.forEach((m, i) => {
+		console.log(m + " " + n[i]);
+	});
 }
-  
+
 sentenceReverse();

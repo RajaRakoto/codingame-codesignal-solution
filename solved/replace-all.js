@@ -4,20 +4,20 @@
  * @feat - split() | forEach() | push() | replaceAll()
  */
 function replaceAll(params) {
-	const n = 'l';
-	const t = 'hello world !';
+	const n = "l";
+	const t = "hello world !";
 	let result = [];
 	let resultFiltered = [];
 	let finalResult = [];
 
 	// separer les chaines
-	const splitT = t.split(' ');
+	const splitT = t.split(" ");
 
 	// comptage de l'occ n dans splitT
 	let counterArray = [];
 	let counter = 0;
-	splitT.forEach(t => {
-		[...t].forEach(t => {
+	splitT.forEach((t) => {
+		[...t].forEach((t) => {
 			if (t === n) {
 				counter++;
 			}
@@ -27,22 +27,22 @@ function replaceAll(params) {
 	});
 
 	// replacer n value par l'element contenu dans counterArray
-	splitT.forEach(t => {
+	splitT.forEach((t) => {
 		result.push(t.replace(n, counterArray[counter]));
 		counter++;
 	});
 
 	// filter le resultat obtenu
-	result.forEach(r => {
-		resultFiltered.push(Array.from(r).filter(r => r != n));
+	result.forEach((r) => {
+		resultFiltered.push(Array.from(r).filter((r) => r != n));
 	});
 
 	// fusionner le resultat filtrE
-	resultFiltered.forEach(f => {
-		finalResult.push(f.join(''));
+	resultFiltered.forEach((f) => {
+		finalResult.push(f.join(""));
 	});
 
-	console.log(finalResult.join(' '));
+	console.log(finalResult.join(" "));
 }
 
 replaceAll();

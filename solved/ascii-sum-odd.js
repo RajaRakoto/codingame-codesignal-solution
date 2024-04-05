@@ -4,12 +4,12 @@
  * @feat - charCodeAt() | map() | filter() | reduce()
  */
 function asciiSumOdd() {
-	const word = 'ABC';
+	const word = "ABC";
 
 	console.log(
 		[...word]
-			.map(w => w.charCodeAt())
-			.filter(w => w % 2 === 1)
+			.map((w) => w.charCodeAt())
+			.filter((w) => w % 2 === 1)
 			.reduce((total, e) => total + e),
 	);
 }

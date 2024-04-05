@@ -4,18 +4,18 @@
  * @feat - push() | shift() | flat() | forEach()
  */
 function indexManip() {
-	let word = ['adgjmpswz', 'behknqtx', 'cfiloruy'];
+	let word = ["adgjmpswz", "behknqtx", "cfiloruy"];
 
 	const stock = [];
-	let string = '';
+	let string = "";
 
-	word.forEach(w => {
+	word.forEach((w) => {
 		stock.push([...w]);
 	});
 
 	while (stock.flat()[0]) {
 		for (const w of stock) {
-			string += w.shift() || '';
+			string += w.shift() || "";
 		}
 	}
 

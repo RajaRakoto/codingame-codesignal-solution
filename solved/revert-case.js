@@ -4,14 +4,14 @@
  * @feat - test() | toLowerCase() | toUpperCase() | join()
  */
 function revertCase() {
-	const s = 'HellO wOrlD !';
+	const s = "HellO wOrlD !";
 
-	const isUpper = str => {
+	const isUpper = (str) => {
 		return !/[a-z]/.test(str) && /[A-Z]/.test(str);
 	};
 
 	console.log(
-		[...s].map(s => (isUpper(s) ? s.toLowerCase() : s.toUpperCase())).join``,
+		[...s].map((s) => (isUpper(s) ? s.toLowerCase() : s.toUpperCase())).join``,
 	);
 }
 

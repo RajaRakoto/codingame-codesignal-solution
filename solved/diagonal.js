@@ -11,12 +11,12 @@
  * @feat - join() | reverse() | push() | forEach()
  */
 function diagonal() {
-	const array = ['mooa', 'pano', 'ptio', 'ioon'];
+	const array = ["mooa", "pano", "ptio", "ioon"];
 
 	function reader(a) {
 		let counter = 0;
 		let result = [];
-		a.forEach(a => {
+		a.forEach((a) => {
 			result.push(a[counter]);
 			counter++;
 		});
@@ -24,7 +24,7 @@ function diagonal() {
 	}
 
 	console.log(
-		reader(array).join`` + ' ' + reader(array.reverse()).reverse().join``,
+		reader(array).join`` + " " + reader(array.reverse()).reverse().join``,
 	);
 }
 

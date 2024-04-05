@@ -3,9 +3,11 @@
  * @exemple - str = "I hate to Love you here" | result -> toLove
  */
 function middle() {
-  const str = "I hate to Love you here".split(" ");
-  const slice = str.length/2;
-  console.log((str.length % 2 == 0) ? str[(slice)-1] + str[slice] : str[Math.floor(slice)]);
+	const str = "I hate to Love you here".split(" ");
+	const slice = str.length / 2;
+	console.log(
+		str.length % 2 == 0 ? str[slice - 1] + str[slice] : str[Math.floor(slice)],
+	);
 }
 
 middle();

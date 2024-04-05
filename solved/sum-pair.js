@@ -6,13 +6,13 @@
 function sumPair() {
 	const N = 120789466;
 
-	let NtoArray = String(N).map(N => {
+	let NtoArray = String(N).map((N) => {
 		return Number(N);
 	});
 
 	let result = 0;
 
-	NtoArray.forEach(n => {
+	NtoArray.forEach((n) => {
 		if (n % 2 === 0) {
 			result += n;
 		}

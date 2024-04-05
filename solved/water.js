@@ -15,18 +15,18 @@
  */
 function water() {
 	const n = 10;
-	const water = '~';
+	const water = "~";
 
 	let result = [];
 	let counter = 0;
 	let tmp = n;
 	while (counter < n) {
-		result.push(' '.repeat(tmp - 1) + water);
+		result.push(" ".repeat(tmp - 1) + water);
 		counter++;
 		tmp--;
 	}
 
-	result.reverse().forEach(r => {
+	result.reverse().forEach((r) => {
 		console.log(r);
 	});
 }

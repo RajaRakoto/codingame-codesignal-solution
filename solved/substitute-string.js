@@ -4,20 +4,20 @@
  * @feat - forEach() | push() | slice() | join() | map()
  */
 function substitureString() {
-	const string = '988998';
+	const string = "988998";
 
 	let diff = [[...string][0]];
-	Array.from(string).forEach(s => {
+	Array.from(string).forEach((s) => {
 		if (diff[0] != s) {
 			diff.push(s);
 		}
 	});
 
 	diff = diff.slice(0, 2);
-	const String = [...string].map(s => (s === diff[0] ? diff[1] : diff[0]));
+	const String = [...string].map((s) => (s === diff[0] ? diff[1] : diff[0]));
 
-	console.log('input: ' + string); // 988998
-	console.log('output: ' + String.join('')); // 899889
+	console.log("input: " + string); // 988998
+	console.log("output: " + String.join("")); // 899889
 }
 
 substitureString();

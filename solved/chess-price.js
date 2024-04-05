@@ -6,8 +6,8 @@ s = NNPPP | result -> 900$
  * @feat - map() | reduce() | includes()
  */
 function chessPrice() {
-	const s = "QRBNP".map(e =>
-		e == 'Q' ? 9 : e == 'B' || e == 'N' ? 3 : e == 'R' ? 5 : e == 'K' ? 4 : 1,
+	const s = "QRBNP".map((e) =>
+		e == "Q" ? 9 : e == "B" || e == "N" ? 3 : e == "R" ? 5 : e == "K" ? 4 : 1,
 	);
 	const total = s.reduce((n, t) => t + n);
 	console.log(s.includes(4) ? total * 200 : total * 100 + "$");

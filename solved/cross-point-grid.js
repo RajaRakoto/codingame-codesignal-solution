@@ -5,21 +5,21 @@
  * @note - La combinaison des grilles de tab1 et tab2 (comme montre l'exemple ci-dessus) est toujours commutative
  */
 function crossPointGrid() {
-	const tab1 = ['//.', './.', '/./', '.\\\\'];
-	const tab2 = ['/.\\', './.', '\\/\\', './/'];
+	const tab1 = ["//.", "./.", "/./", ".\\\\"];
+	const tab2 = ["/.\\", "./.", "\\/\\", ".//"];
 
 	let tab1Extract = [];
 	let tab2Extract = [];
 	let tabResult = [];
 
-	tab1.map(t1 => {
-		[...t1].map(tt1 => {
+	tab1.map((t1) => {
+		[...t1].map((tt1) => {
 			tab1Extract.push(tt1);
 		});
 	});
 
-	tab2.map(t2 => {
-		[...t2].map(tt2 => {
+	tab2.map((t2) => {
+		[...t2].map((tt2) => {
 			tab2Extract.push(tt2);
 		});
 	});
@@ -30,12 +30,12 @@ function crossPointGrid() {
 		}
 
 		if (tab1Extract[i] !== tab2Extract[i]) {
-			if (tab1Extract[i] === '.' || tab2Extract[i] === '.') {
+			if (tab1Extract[i] === "." || tab2Extract[i] === ".") {
 				tabResult.push(
-					tab1Extract[i] === '.' ? tab2Extract[i] : tab1Extract[i],
+					tab1Extract[i] === "." ? tab2Extract[i] : tab1Extract[i],
 				);
 			} else {
-				tabResult.push('X');
+				tabResult.push("X");
 			}
 		}
 	}
@@ -45,11 +45,11 @@ function crossPointGrid() {
 	console.error(tab2Extract);
 
 	let counter = 0;
-	let stringResult = '';
+	let stringResult = "";
 
 	for (let j = 0; j < tabResult.length; j++) {
 		stringResult +=
-			counter === tab1.length - 1 ? tabResult[j] + '\n' : tabResult[j];
+			counter === tab1.length - 1 ? tabResult[j] + "\n" : tabResult[j];
 		counter = counter === tab1.length - 1 ? 0 : counter + 1;
 	}
 

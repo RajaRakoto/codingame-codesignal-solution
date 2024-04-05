@@ -4,8 +4,8 @@
  * @feat - push() | join()
  */
 function andBin() {
-	const n1 = '00000000000111';
-	const n2 = '00000000000100';
+	const n1 = "00000000000111";
+	const n2 = "00000000000100";
 	let result = [];
 
 	for (let i = 0; i < n1.length; i++) {

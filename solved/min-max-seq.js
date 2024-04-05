@@ -4,7 +4,7 @@
  * @feat - Math.min() | Math.max() | Number() | split() | map()
  */
 function minMaxSeq() {
-	const n = '6 4 8 31 7 5 9'.split(' ').map(e => Number(e));
+	const n = "6 4 8 31 7 5 9".split(" ").map((e) => Number(e));
 	console.log(Math.min(...n) + Math.max(...n));
 }
 

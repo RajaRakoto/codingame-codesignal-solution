@@ -38,7 +38,7 @@
 	this.ConvertBase = ConvertBase;
 })(this);
 
-console.log(ConvertBase.bin2dec('111')); // 7
-console.log(ConvertBase.dec2hex('42')); // 2a
-console.log(ConvertBase.hex2bin('f8')); // 11111000
-console.log(ConvertBase.dec2bin('22')); // 10110
+console.log(ConvertBase.bin2dec("111")); // 7
+console.log(ConvertBase.dec2hex("42")); // 2a
+console.log(ConvertBase.hex2bin("f8")); // 11111000
+console.log(ConvertBase.dec2bin("22")); // 10110

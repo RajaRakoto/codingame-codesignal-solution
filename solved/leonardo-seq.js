@@ -4,7 +4,7 @@
  */
 function leonardoSeq() {
 	const n = 9;
-	const leo = n => {
+	const leo = (n) => {
 		if (n <= 1) {
 			return 1;
 		} else {

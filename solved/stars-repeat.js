@@ -20,16 +20,16 @@ function starsRepeat() {
 
 	let result = [];
 	let index = 1;
-	let str = '';
+	let str = "";
 
 	while (index <= size) {
-		str += index === 1 ? '*' : ' '.repeat(index - 1) + '*'.repeat(index);
+		str += index === 1 ? "*" : " ".repeat(index - 1) + "*".repeat(index);
 		result.push(str);
-		str = '';
+		str = "";
 		index++;
 	}
 
-	result.forEach(r => {
+	result.forEach((r) => {
 		console.log(r);
 	});
 }

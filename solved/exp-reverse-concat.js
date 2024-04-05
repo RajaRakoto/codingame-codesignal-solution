@@ -9,9 +9,9 @@
  * @feat -join() | split() | reverse() | map() | eval()
  */
 function expReverseConcat() {
-	const x = '7112236 3';
+	const x = "7112236 3";
 	console.log(
-		[...x.split(' ')[0]].reverse().map(e => eval(e + '**' + x.split(' ')[1]))
+		[...x.split(" ")[0]].reverse().map((e) => eval(e + "**" + x.split(" ")[1]))
 			.join``,
 	);
 }

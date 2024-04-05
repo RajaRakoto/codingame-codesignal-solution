@@ -4,12 +4,12 @@
  * @feat - fromCharCode() | replace() | charCodeAt() | toLowerCase()
  */
 function rot13Decryptor() {
-	const M = 'uryyb jbeyq';
+	const M = "uryyb jbeyq";
 
 	function rot13(message) {
-		return message.replace(/[a-z]/gi, letter =>
+		return message.replace(/[a-z]/gi, (letter) =>
 			String.fromCharCode(
-				letter.charCodeAt(0) + (letter.toLowerCase() <= 'm' ? 13 : -13),
+				letter.charCodeAt(0) + (letter.toLowerCase() <= "m" ? 13 : -13),
 			),
 		);
 	}

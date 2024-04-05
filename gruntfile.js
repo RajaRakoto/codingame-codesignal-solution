@@ -57,9 +57,9 @@ module.exports = function (grunt) {
 	// all grunt register tasks
 	grunt.registerTask("backup", [
 		"compress:main",
-    "compress:puzzle",
-    "compress:solved",
-    "compress:tmp",
+		"compress:puzzle",
+		"compress:solved",
+		"compress:tmp",
 	]);
 
 	// all tasks lists

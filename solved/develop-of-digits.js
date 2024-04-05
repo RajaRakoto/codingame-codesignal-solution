@@ -4,19 +4,19 @@
  * @feat - forEach() | join() | Number() | splice() | indexOf() | eval()
  */
 function developOfDigit() {
-	const input = '(-5+4)(-44x+7)';
+	const input = "(-5+4)(-44x+7)";
 	let { a, b, c, d } = [];
 
 	// enleve le premier "(" et le dernier ")"
 	let globalExpr = [...input].slice(1, input.length - 1);
-	let firstExpr = globalExpr.splice(0, globalExpr.indexOf(')'));
+	let firstExpr = globalExpr.splice(0, globalExpr.indexOf(")"));
 	let secondExpr = globalExpr.splice(2, globalExpr.length);
 
 	// recupere l'index du signe de la constante b et d
 	function getSignIndex(expr) {
 		let index = expr.length;
 		while (index > 0) {
-			if (expr[index] === '-' || expr[index] === '+') {
+			if (expr[index] === "-" || expr[index] === "+") {
 				break;
 			}
 			index--;
@@ -24,15 +24,15 @@ function developOfDigit() {
 		return index;
 	}
 
-	a = String(firstExpr.splice(0, getSignIndex(firstExpr)).join(''));
-	b = String(firstExpr.join(''));
-	c = String(secondExpr.splice(0, getSignIndex(secondExpr)).join(''));
-	d = String(secondExpr.join(''));
+	a = String(firstExpr.splice(0, getSignIndex(firstExpr)).join(""));
+	b = String(firstExpr.join(""));
+	c = String(secondExpr.splice(0, getSignIndex(secondExpr)).join(""));
+	d = String(secondExpr.join(""));
 
 	// tester si a,b,c et d contient une variable ou pas
 	const toTest = [a, b, c, d];
 	let testResult = true;
-	toTest.forEach(t => {
+	toTest.forEach((t) => {
 		if (!Number(t)) {
 			console.log(`"${t}" est inconnu !`);
 			testResult = false;

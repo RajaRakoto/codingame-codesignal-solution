@@ -4,14 +4,14 @@
  */
 function concatString() {
 	const N = 1;
-	const string = 'string';
-	let result = '';
+	const string = "string";
+	let result = "";
 
 	for (let i = 0; i < N; i++) {
 		result += string;
 	}
 
-	console.log(N !== 0 ? result : 'empty');
+	console.log(N !== 0 ? result : "empty");
 }
 
 concatString();

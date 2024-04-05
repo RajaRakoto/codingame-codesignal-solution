@@ -5,18 +5,18 @@
  */
 function binaryNot() {
 	// method 1
-	const B = '101100';
+	const B = "101100";
 	let result = [];
 
-	[...B].forEach(b => {
-		b === '1' ? result.push('0') : result.push('1');
+	[...B].forEach((b) => {
+		b === "1" ? result.push("0") : result.push("1");
 	});
 
-	console.log(Number(result.join('')));
+	console.log(Number(result.join("")));
 
 	// method 2
 	console.log(
-		Number(B.replaceAll('1', 'a').replaceAll('0', '1').replaceAll('a', '0')),
+		Number(B.replaceAll("1", "a").replaceAll("0", "1").replaceAll("a", "0")),
 	);
 }
 

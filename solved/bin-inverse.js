@@ -5,8 +5,7 @@
  */
 function binInverse() {
 	const n = 9;
-	const bin = [...n.toString(2)].map(b => (b === '0' ? '1' : '0'))
-		.join``;
+	const bin = [...n.toString(2)].map((b) => (b === "0" ? "1" : "0")).join``;
 	console.log(parseInt(bin, 2));
 }
 

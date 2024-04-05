@@ -15,7 +15,7 @@ function factorial() {
 	console.log(fact);
 
 	// method 2
-	const fact2 = N => (N > 0 ? N * fact2(N - 1) : 1);
+	const fact2 = (N) => (N > 0 ? N * fact2(N - 1) : 1);
 
 	console.log(fact2(N));
 }

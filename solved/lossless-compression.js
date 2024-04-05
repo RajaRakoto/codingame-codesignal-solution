@@ -10,7 +10,7 @@ function losslessCompression() {
 	let n = 0;
 	let result = [];
 
-	[...s].forEach(s => {
+	[...s].forEach((s) => {
 		if (s == c) {
 			n++;
 		} else {

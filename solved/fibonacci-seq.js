@@ -20,7 +20,7 @@ function fibonacciSeq() {
 		counter++;
 	}
 
-	result.forEach(r => {
+	result.forEach((r) => {
 		console.log(r);
 	});
 }

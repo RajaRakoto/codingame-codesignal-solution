@@ -8,7 +8,7 @@ function zeroXY() {
 	let point = [];
 
 	for (let i = 0; i < N; i++) {
-		var inputs = readline().split(' ');
+		var inputs = readline().split(" ");
 		const x = parseInt(inputs[0]);
 		const y = parseInt(inputs[1]);
 		point.push(inputs);
@@ -20,7 +20,7 @@ function zeroXY() {
 
 	let distance = [];
 
-	point.forEach(pt => {
+	point.forEach((pt) => {
 		distance.push(distCalc(pt));
 	});
 

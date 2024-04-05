@@ -5,7 +5,7 @@
  */
 function harshad() {
 	const n = 1729;
-	const sum = [...n.toString()].map(n => Number(n)).reduce((t, n) => t + n);
+	const sum = [...n.toString()].map((n) => Number(n)).reduce((t, n) => t + n);
 	const rev = Number([...sum.toString()].reverse().join``);
 	console.log(rev * sum === n ? true : false);
 }

@@ -21,13 +21,13 @@ function reversed() {
 			inverse.push(nToArray[index]);
 			index--;
 		}
-		inverse = Number(inverse.slice(1, inverse.length).join(''));
+		inverse = Number(inverse.slice(1, inverse.length).join(""));
 	} else {
 		inverse = n;
 	}
 
-	const expression = `${negFlag ? '-' : ''}${n} -(${
-		negFlag ? '-' : ''
+	const expression = `${negFlag ? "-" : ""}${n} -(${
+		negFlag ? "-" : ""
 	}${inverse})`;
 
 	console.log(`${expression} = ${eval(expression)}`);

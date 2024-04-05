@@ -4,10 +4,10 @@
  * @feat - map() | reduce() | Number()
  */
 function sumSquare() {
-	const number = '222';
+	const number = "222";
 
 	console.log(
-		[...number].map(n => Number(n)).reduce((total, n) => total + n) ** 2,
+		[...number].map((n) => Number(n)).reduce((total, n) => total + n) ** 2,
 	);
 }
 

@@ -9,16 +9,16 @@ function negPos() {
 	let result;
 
 	if (n < 0) {
-		result = number.map(n => '-' + n);
+		result = number.map((n) => "-" + n);
 		result.reverse();
 		result[result.length - 1] = 0;
 		result.unshift((Number(result[0]) - 1).toString());
 	} else {
-		result = number.map(n => n);
+		result = number.map((n) => n);
 		result.reverse();
 	}
 
-	console.log(n !== 0 ? result.join` ` : 'Already Zero');
+	console.log(n !== 0 ? result.join` ` : "Already Zero");
 }
 
 negPos();

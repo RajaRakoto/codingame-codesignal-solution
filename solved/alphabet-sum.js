@@ -4,14 +4,43 @@
  * @feat - indexOf() | map()
  */
 function alphabetSum() {
-  const n = "HELLO WORLD !" ;
-  const alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-  let sum = 0;
- [...n].map(n => {
-    sum +=
-		alphabet.indexOf(n) === -1 ? alphabet.indexOf(n) + 1 : alphabet.indexOf(n);
-});
-console.log(sum);
+	const n = "HELLO WORLD !";
+	const alphabet = [
+		"A",
+		"B",
+		"C",
+		"D",
+		"E",
+		"F",
+		"G",
+		"H",
+		"I",
+		"J",
+		"K",
+		"L",
+		"M",
+		"N",
+		"O",
+		"P",
+		"Q",
+		"R",
+		"S",
+		"T",
+		"U",
+		"V",
+		"W",
+		"X",
+		"Y",
+		"Z",
+	];
+	let sum = 0;
+	[...n].map((n) => {
+		sum +=
+			alphabet.indexOf(n) === -1
+				? alphabet.indexOf(n) + 1
+				: alphabet.indexOf(n);
+	});
+	console.log(sum);
 }
 
-alphabetSum()
+alphabetSum();

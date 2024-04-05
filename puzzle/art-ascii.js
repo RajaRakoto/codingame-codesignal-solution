@@ -20,8 +20,8 @@ function artAscii() {
 	const text = readline().toLowerCase();
 	const alphabet = [...String.fromCharCode(...Array(123).keys()).slice(97)];
 	const index = [...text]
-		.map(t => alphabet.indexOf(t))
-		.map(t => (t == -1 ? 26 : t));
+		.map((t) => alphabet.indexOf(t))
+		.map((t) => (t == -1 ? 26 : t));
 
 	// get ascii
 	let arr = [];
@@ -45,20 +45,20 @@ function artAscii() {
 		min += 4;
 	}
 
-	let final = index.map(i => model[i]);
+	let final = index.map((i) => model[i]);
 	let i = 0;
-	let pre = '';
+	let pre = "";
 	let result = [];
 	while (i < final[0].length) {
-		final.forEach(f => {
+		final.forEach((f) => {
 			pre += f[i];
 		});
 		result.push(pre);
-		pre = '';
+		pre = "";
 		i++;
 	}
 
-	result.forEach(r => console.log(r));
+	result.forEach((r) => console.log(r));
 }
 
 artAscii();

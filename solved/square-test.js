@@ -7,7 +7,7 @@ function squareTest() {
 	let listN = [5, 12, 8, 21, 25, undefined, 16];
 	let M = [];
 
-	listN.forEach(n => {
+	listN.forEach((n) => {
 		let testN = n !== undefined ? Math.sqrt(n) : 0;
 
 		// tester si le resultat du testN est un entier

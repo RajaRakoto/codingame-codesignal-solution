@@ -8,7 +8,7 @@ function indexSum() {
 	const index = [1, 2];
 
 	let result = 0;
-	index.forEach(index => {
+	index.forEach((index) => {
 		result += count[index];
 	});
 

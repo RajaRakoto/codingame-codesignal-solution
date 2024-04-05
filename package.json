@@ -12,13 +12,13 @@
 	"bugs": "https://github.com/RajaRakoto/calc-js/issues",
 	"keywords": [
 		"javascript",
-    "training",
-    "practice",
+		"training",
+		"practice",
 		"algorithms",
-    "solutions",
-    "data-structures",
-    "codingame",
-    "codesignal"
+		"solutions",
+		"data-structures",
+		"codingame",
+		"codesignal"
 	],
 	"scripts": {
 		"prettier": "prettier --config .prettierrc --write .",

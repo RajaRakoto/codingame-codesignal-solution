@@ -4,7 +4,7 @@
  */
 function gmSum() {
 	const N = parseInt(readline());
-	var inputs = readline().split(' ');
+	var inputs = readline().split(" ");
 	let ref = [];
 	for (let i = 0; i < N; i++) {
 		const X = parseInt(inputs[i]);
@@ -16,7 +16,7 @@ function gmSum() {
 	let plage = [];
 
 	for (let i = 0; i < M; i++) {
-		var inputs = readline().split(' ');
+		var inputs = readline().split(" ");
 		const startRange = parseInt(inputs[0]);
 		const endRange = parseInt(inputs[1]);
 		plage.push(inputs);
@@ -34,13 +34,13 @@ function gmSum() {
 	}
 
 	let result = [];
-	ref = ref.map(r => Number(r));
+	ref = ref.map((r) => Number(r));
 
-	plage.forEach(e => {
+	plage.forEach((e) => {
 		result.push(sum(e, ref));
 	});
 
-	result.forEach(r => console.log(r));
+	result.forEach((r) => console.log(r));
 }
 
 gmSum();

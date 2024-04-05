@@ -4,12 +4,13 @@
  * @feat - isNaN() | push() | forEach()
  */
 function traderHistory(exchangeRates) {
-  let result = ["#"];
-  exchangeRates.forEach((d,i) => {
-  let diff = exchangeRates[i+1]-exchangeRates[i];
-  if (!isNaN(exchangeRates[i+1])) result.push(`${diff>=0?'+'+diff:diff}`);
-  }) 
-  console.log(result);
+	let result = ["#"];
+	exchangeRates.forEach((d, i) => {
+		let diff = exchangeRates[i + 1] - exchangeRates[i];
+		if (!isNaN(exchangeRates[i + 1]))
+			result.push(`${diff >= 0 ? "+" + diff : diff}`);
+	});
+	console.log(result);
 }
 
 traderHistory();

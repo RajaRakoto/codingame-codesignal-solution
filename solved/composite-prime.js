@@ -6,7 +6,7 @@
  */
 function compositePrime() {
 	const count = parseInt(readline());
-	var inputs = readline().split(' ');
+	var inputs = readline().split(" ");
 
 	let result = 0;
 	let arrayN = [];
@@ -18,7 +18,7 @@ function compositePrime() {
 
 	let uniqN = [...new Set(arrayN)]; // suppression des doublons
 
-	uniqN.forEach(n => {
+	uniqN.forEach((n) => {
 		result += n;
 	});
 
